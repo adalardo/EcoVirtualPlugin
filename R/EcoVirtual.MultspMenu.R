@@ -287,7 +287,7 @@ dstEntry=tkscale(top, from=0, to=1, showvalue=TRUE, variable=dstVar, resolution=
 pErEntry <-tkscale(top, from=0, to=1, showvalue=TRUE, variable=pErVar, resolution=0.01, orient="horizontal")
 pScEntry <- tkscale(top, from=0, to=1, showvalue=TRUE, variable=pScVar, resolution=0.01, orient="horizontal")
 pMxEntry <- tkscale(top, from=0, to=1, showvalue=TRUE, variable=pMxVar, resolution=0.01, orient="horizontal")
-pRsEntry <- tkscale(top, from=0, to=1, showvalue=TRUE, variable=pScVar, resolution=0.01, orient="horizontal")
+pRsEntry <- tkscale(top, from=0, to=1, showvalue=TRUE, variable=pRsVar, resolution=0.01, orient="horizontal")
 animaBox <- tkcheckbutton(top, variable = animaVar)
 onOK <- function() 
     {
